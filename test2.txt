@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 https://github.com/rsentra/myProj.git	
 test
 2번째 변경
 3번째 변경
+=======
+test파일입니다.
+2번째 변경입니다.
+>>>>>>> 98a3d54e453b6e2c0af18c02ca1e6f4c3d275bd4
