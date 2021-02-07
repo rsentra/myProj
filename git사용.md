@@ -4,16 +4,16 @@ git config --global core.quotepath false
 
 ### 1. git status : 연결상태, unstaged source있는지 확인  
 ### 2. 소스를 편집,변경  
-### 3. staging: git add <file name>   또는 git add -all  
-4. commit : git commit -m "commit msessage~~"  
-5. pull : git pull origin master  
-6: push : git push origin master  
+### 3. staging: git add <file name>   또는 git add -all   
+### 4. commit : git commit -m "commit msessage~~"   
+### 5. pull : git pull origin master   
+### 6: push : git push origin master   
  
-■ git 상태  
-git status 
-git status 'file name' : 특정파일의 git상태보기
+### ■ git 상태  
+git status   
+git status 'file name' : 특정파일의 git상태보기  
  
-■ git staging 
+### ■ git staging 
  -- git add all 
  git add . 
  --git add 취소 all 
@@ -22,7 +22,7 @@ git status 'file name' : 특정파일의 git상태보기
  git rm --cached 'file name' 
  git reset HEAD 'file name' 
   
-■ git commit 조회 
+### ■ git commit 조회 
 git show : 현재 브랜치의 가장 최근 커밋 정보를 확인함 
 git show 커밋해시값 : 특정 커밋 정보를 확인함 
 git show HEAD : HEAD 포인터가 가리키는 커밋정보를 확인함 
@@ -42,7 +42,7 @@ git show 커밋해시값 또는 HEAD^
   git reset --hard HEAD^
 https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html
 
-■ git 관리 
+### ■ git 관리 
  --git에 잘못올라간 파일삭제 -> commit -> push
  git rm --cached [File Name]      # 파일삭제
  git rm --cached  -r [dirname/]   # dir및 파일삭제
@@ -50,7 +50,7 @@ https://gmlwjd9405.github.io/2018/05/25/git-add-cancle.html
  --git + local모두 삭제 -> commit -> push
  git rm [File Name]
  
-■ git ignore
+### ■ git ignore
  gitignore 설정: 파일편집->file name추가
  
  [ignore 문법] 
